@@ -1,0 +1,16 @@
+GET http://localhost:8080/hello
+
+###
+
+POST http://localhost:8080/message
+Content-Type: application/json
+Accept: application/json
+
+{
+  "messages": [
+    {
+      "message": "Hello",
+      "status": 0
+    }
+  ]
+}
